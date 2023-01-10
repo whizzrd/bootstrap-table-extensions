@@ -1,0 +1,19 @@
+{
+  "name": "bootstrap-table-extension-containerstyle",
+  "version": "1.0.0",
+  "description": "container style extension for bootstrap table",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/whizzrd/bootstrap-table-extension-containerstyle.git"
+  },
+  "author": "Joris van Lier <whizzrd@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/whizzrd/bootstrap-table-extension-containerstyle/issues"
+  },
+  "homepage": "https://github.com/whizzrd/bootstrap-table-extension-containerstyle#readme"
+}
