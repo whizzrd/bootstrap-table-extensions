@@ -1,0 +1,19 @@
+{
+  "name": "bootstrap-table-extension-fixed-columns-livewire",
+  "version": "1.0.0",
+  "description": "fixed columns extension modifier for bootstrap table with livewire",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/whizzrd/bootstrap-table-extensions.git"
+  },
+  "author": "Joris van Lier <whizzrd@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/whizzrd/bootstrap-table-extensions/issues"
+  },
+  "homepage": "https://github.com/whizzrd/bootstrap-table-extensions#readme"
+}
