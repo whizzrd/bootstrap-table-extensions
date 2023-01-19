@@ -1,0 +1,19 @@
+{
+  "name": "bootstrap-table-extension-sticky-toolbar",
+  "version": "1.0.0",
+  "description": "sticky toolbar extension for bootstrap table",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/whizzrd/bootstrap-table-extension-sticky-toolbar.git"
+  },
+  "author": "Joris van Lier <whizzrd@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/whizzrd/bootstrap-table-extension-sticky-toolbar/issues"
+  },
+  "homepage": "https://github.com/whizzrd/bootstrap-table-extension-sticky-toolbar#readme"
+}
