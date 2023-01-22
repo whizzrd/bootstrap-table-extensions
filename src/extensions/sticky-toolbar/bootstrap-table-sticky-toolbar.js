@@ -48,11 +48,16 @@ $.BootstrapTable = class extends $.BootstrapTable {
 
   onColumnSearch ({ currentTarget, keyCode }) {
     super.onColumnSearch({ currentTarget, keyCode })
+
+    if(!this.options.stickyToolbar) return
+
     this.renderstickyToolbar()
   }
 
   resetView (...args) {
     super.resetView(...args)
+
+    if(!this.options.stickyToolbar) return
 
     $('.bootstrap-table.fullscreen').off('scroll')
       .on('scroll', () => this.renderstickyToolbar())
@@ -60,6 +65,9 @@ $.BootstrapTable = class extends $.BootstrapTable {
 
   horizontalScroll () {
     super.horizontalScroll()
+
+    if(!this.options.stickyToolbar) return
+
     this.$tableBody.on('scroll', () => this.matchPositionX())
   }
 
